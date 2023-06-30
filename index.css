@@ -1,0 +1,246 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.top-page {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  background-color: #E7B10A;
+  color:#213363;
+  font-family: "Dancing script";
+  padding: 1rem 2rem;
+}
+
+.top-page p {
+  position: absolute;
+  top: 50%;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+#nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+#nav-links a {
+  text-decoration: none;
+}
+
+.beginning{
+    margin: 80px 0px 
+}
+.test{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    position: relative;
+}
+.test h1{
+    position: absolute;
+    bottom: 20px;
+    left: 450px;
+    color: #E7B10A;
+}
+.beginning img {
+  width: 800px;
+  height: 350px;
+}
+
+p{
+    width: 800px;
+   font-family: "Dancing script";
+}
+#first_p {
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  color: #213363;
+ 
+}
+
+.plat {
+    margin-top: 2rem;
+}
+
+.plat_one img {
+  width: 350px;
+  height: 500px;
+  border-radius: 3px;
+}
+
+
+.plat_one{
+    position: relative;
+}
+
+h2{
+  color: #00235B;
+}
+
+.plat_one p{
+    position: absolute;
+    font-style:inherit;
+    text-align: justify;
+    word-spacing: 0.8rem;
+    color: aliceblue;
+    top: 30px;
+    left: 13em;
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+    background-color: #898121;
+}
+
+.plat_two{
+  position: absolute;
+}
+
+.plat_two p{
+  position: absolute;
+  text-align: justify;
+  word-spacing: 0.8rem;
+  color: #f4ff74;
+  top: 30px;
+  left: 13em;
+  border-radius: 3px;
+  padding: 10px 15px 10px 15px;
+  background-color:#BABD42;
+
+}
+.plat_two img {
+  width: 350px;
+  height: 500px;
+  border-radius: 3px;
+}
+
+
+a:link {
+  color:black ;
+} 
+a:visited{
+  color: blue;
+}
+
+.alone p{
+  margin-top: 600px;
+  font-size: xx-large;
+  font-family: "Dancing script";
+  align-items: center;
+  color: #00235B;
+  background-color: #FFEF82;
+  height: 50px;
+  transform: translate(50%);
+}
+
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin-top: 50px;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f4ff74;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f4ff74;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+footer{
+  margin-top: 100px;
+  font-size: 20px;
+  color: #00235B;
+  background-color: #E7B10A;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+ 
